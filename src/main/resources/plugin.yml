@@ -1,0 +1,21 @@
+name: SoulSystem
+version: '${project.version}'
+main: me.hikaru.soulsystem.SoulSystem
+api-version: 1.19
+depend:
+  - PlaceholderAPI
+commands:
+  revive:
+    description: Revive a dead player!
+    usage: /<commandname> [<playername>]
+  checksouls:
+    description: Check the amount of souls you have left!
+    usage: /<commandname>
+  soulsystem:
+    description: Admin Commands!
+    usage: /<commandname> [<setSouls/addSouls/removeSouls>] [<playername>] [<amount>]
+    permission: soulsSystem.admin
+    aliases:
+      - souls
+      - soulsadmin
+      - sa

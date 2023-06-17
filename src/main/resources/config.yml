@@ -1,0 +1,22 @@
+# Souls System For Blazing-Realm
+# Made By H1k4ru_
+
+default-souls: 3
+max-souls: 10
+
+soul-shard:
+  Type: MATERIAL
+  Id: SOUL_SHARD
+
+message:
+  die-from-player: "§b§l%combatlogx_enemy_name% §3just killed you§b§l, are you just letting that slide§b§l?"
+  die-from-other: "§3Be careful§b§l! §3You will die if you lose all your §b§lSouls§3!"
+  kill: "§3Ahh, not bad§b§l! §3You managed to kill §b§l%combatlogx_enemy_name%§3§l!"
+  no-souls: "§3Told ya§b§l! §3Have fun being in spectator until someone §b§lREVIVES §3you§b§l!"
+# ChatColor.DARK_AQUA + "Told ya" + ChatColor.AQUA + "" + ChatColor.BOLD + "!" + ChatColor.DARK_AQUA + " Have fun being in spectator until someone " + ChatColor.AQUA + "" + ChatColor.AQUA + "REVIVES" + ChatColor.DARK_AQUA + " you" + ChatColor.AQUA + "" + ChatColor.BOLD + "!"
+  revive-success: "§b§lRevived Success§3§l!"
+  got-revived: "§3Someone §b§lRevived §3you§b§l! §3Don't make the same mistake again§b§l!"
+  dead: "§3You can't §b§lREVIVE yourself§b§l"
+  check-souls: "§3You have §b%souls_count% §b§lSouls §3left§b."
+  not-enough-souls: "&3Not enough souls&b&l!"
+  first-join: "&3Be careful&b&l! &3Don't lose all your &b&lSOULS&3!"
