@@ -6,6 +6,7 @@ This plugin is made exclusively for the Cracked Minecraft Server: Blazing-Realm,
 ## Dependency
 
 MMOItems - 6.7.3 or higher
+
 PlaceholderAPI - 2.11.3 or higher
 
 ## How it works
